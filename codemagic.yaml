@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "{{ smart_display_sdk }}"
-                XCODE_SCHEME: "{{ Runner }}"
+                XCODE_WORKSPACE: "project"
+                XCODE_SCHEME: "Runner"
             xcode: latest
             cocoapods: default
         scripts:
